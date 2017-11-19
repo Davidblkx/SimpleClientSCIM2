@@ -58,23 +58,6 @@ namespace SimpleClientSCIM2.Schema
         public Operation Bulk { get; set; }
 
         /// <summary>
-        /// An integer value specifying the maximum number of
-        /// operations.REQUIRED.
-        /// </summary>
-        [JsonRequired]
-        [JsonProperty("maxOperations")]
-        public int MaxOperations { get; set; }
-
-
-        /// <summary>
-        /// An integer value specifying the maximum payload
-        /// size in bytes.REQUIRED.
-        /// </summary>
-        [JsonRequired]
-        [JsonProperty("maxPayloadSize")]
-        public int MaxPayloadSize { get; set; }
-
-        /// <summary>
         /// A complex type that specifies FILTER options.  REQUIRED.  See
         /// Section 3.4.2.2 of[RFC7644].
         /// </summary>

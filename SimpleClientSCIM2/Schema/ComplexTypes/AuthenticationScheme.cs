@@ -43,5 +43,8 @@ namespace SimpleClientSCIM2.Schema.ComplexTypes
         [JsonRequired]
         [JsonProperty("documentationUri")]
         public string DocumentationUri { get; set; }
+        
+        [JsonProperty("primary")]
+        public bool Primary { get; set; }
     }
 }

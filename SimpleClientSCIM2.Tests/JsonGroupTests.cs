@@ -10,7 +10,7 @@ namespace SimpleClientSCIM2.Tests
     public class JsonGroupTests
     {
         [TestMethod]
-        public void TestGroupJson()
+        public void TestJsonGroup()
         {
             var jsonText = File.ReadAllText("group.json");
             Group group = JsonConvert.DeserializeObject<Group>(jsonText);

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace SimpleClientSCIM2.Schema
 {
-    public class Resource
+    public class Resource : IResource
     {
         public Resource()
         {

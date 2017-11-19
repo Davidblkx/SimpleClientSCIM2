@@ -10,7 +10,7 @@ namespace SimpleClientSCIM2.Tests
     public class JsonUserTests
     {
         [TestMethod]
-        public void TestUserWrite()
+        public void TestJsonUser()
         {
             string jsonText = File.ReadAllText("basicUser.json");
             User user = JsonConvert.DeserializeObject<User>(jsonText);
@@ -22,7 +22,7 @@ namespace SimpleClientSCIM2.Tests
         }
 
         [TestMethod]
-        public void TestEnterpriseUserWrite()
+        public void TestJsonEnterpriseUser()
         {
             string jsonText = File.ReadAllText("enterprise.json");
             EnterpriseUser user = JsonConvert.DeserializeObject<EnterpriseUser>(jsonText);
